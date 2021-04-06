@@ -29,7 +29,7 @@ pls note: if you're calling from http, you need to change https://refer-ui to ht
           )}          
         />
 
-uri = `https://refer-ui-two.vercel.app/?email=${email}&name=${name}&base_url=${https://goluuk.com}&client_id=your-client-id&client_secre=your-client-secret`;
+uri = `https://refer-ui-two.vercel.app/?email=${email}&name=${name}&base_url=https://goluuk.com&client_id=your-client-id&client_secre=your-client-secret`;
 
 ```
 
