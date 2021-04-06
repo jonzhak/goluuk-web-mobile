@@ -33,6 +33,13 @@ uri = `https://refer-ui-two.vercel.app/?email=${email}&name=${name}&base_url=htt
 
 ```
 
+first import these 3 functions from the avalanche-utils-api.js file
+```
+getApiToken
+signUpEvent
+premiumEvent
+giveReward
+```
 
 
 when a new user signs up:
