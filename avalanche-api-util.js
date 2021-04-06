@@ -29,8 +29,9 @@ const getApiToken = () => {
     });
   });
 };
+exports.getApiToken = getApiToken;
 
-const signUpEvent = (email, referral_code, authReferApiToken) => {
+export const signUpEvent = (email, referral_code, authReferApiToken) => {
   return new Promise(function (resolve, reject) {
     var options = {
       method: "POST",
@@ -61,6 +62,7 @@ const signUpEvent = (email, referral_code, authReferApiToken) => {
     });
   });
 };
+exports.signUpEvent = signUpEvent;
 
 const premiumEvent = (email, authReferApiToken) => {
   return new Promise(function (resolve, reject) {
@@ -92,7 +94,7 @@ const premiumEvent = (email, authReferApiToken) => {
     });
   });
 };
-
+exports.premiumEvent = premiumEvent;
 const giveReward = (email, authReferApiToken) => {
   return new Promise(function (resolve, reject) {
     var options = {
@@ -116,3 +118,4 @@ const giveReward = (email, authReferApiToken) => {
     });
   });
 };
+exports.giveReward = giveReward;
